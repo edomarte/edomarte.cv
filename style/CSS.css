@@ -1,7 +1,8 @@
 body {
   background-color: rgb(255, 200, 21);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
   color: darkred;
+  font-size: large;
 }
 
 #title {
@@ -10,6 +11,7 @@ body {
   color: rgb(255, 200, 21);
   flex-direction: column;
   width: 80%;
+  padding-left: 20px;
 }
 
 #title_and_image {
@@ -21,6 +23,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
 .container-1 div,
@@ -29,6 +32,8 @@ body {
   padding: 10px;
   border: 1px darkred solid;
 }
+
+
 
 @media (max-width: 800px) {
 
@@ -54,19 +59,28 @@ body {
 
 #summary-box{
 flex:1;
+background-color: gold;
 }
 
+#cover-letter-box{
+  flex:1;
+  background-color: gold;
+  padding:10px;
+  }
+
 .box1 {
-  
+  background-color: yellow;
   flex-basis: 30%;
 }
 
 .box2 {
+  background-color:gold ;
   flex-basis: 30%;
 }
 
 .box3 {
   flex-basis: 30%;
+  background-color:rgb(255, 200, 21) ;
 }
 
 #img_div{
@@ -77,8 +91,8 @@ flex:1;
 }
 
 img{
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
 }
 
 h3{
