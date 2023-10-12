@@ -2,16 +2,20 @@ body {
   background-color: rgb(255, 200, 21);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
   color: darkred;
-  font-size: large;
+  font-size:20px;
+}
+
+.card-text{
+  color:darkred
 }
 
 #title {
-  display: flex;
+  /*display: flex;*/
   background-color: darkred;
   color: rgb(255, 200, 21);
-  flex-direction: column;
+  /*flex-direction: column;
   width: 80%;
-  padding-left: 20px;
+  padding-left: 20px;*/
 }
 
 #title_and_image {
@@ -24,6 +28,10 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 
+}
+
+h2{
+  text-align: center;
 }
 
 .container-1 div,
